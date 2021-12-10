@@ -15,9 +15,9 @@ namespace Math.r
 
             var area = P * r * r;
             var perimeter = 2 * P * r;
+
             Console.WriteLine("Area =" + area);
             Console.WriteLine("Perimeter = " + perimeter);
-
         }
     }
 }
