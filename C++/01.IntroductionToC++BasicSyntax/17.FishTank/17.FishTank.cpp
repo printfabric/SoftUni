@@ -21,5 +21,4 @@ int main()
     cout.precision(02);
 
     cout << actualLiters;
-
 }
