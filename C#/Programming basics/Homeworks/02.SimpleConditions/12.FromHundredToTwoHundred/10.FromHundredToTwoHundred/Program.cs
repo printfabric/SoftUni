@@ -19,7 +19,7 @@ namespace fromHundredTo2Hundred
                 Console.WriteLine("Less than 100");
             }
 
-            else if (num >= 100 && num < 200)
+            else if (num >= 100 && num < 200 )
             {
                 Console.WriteLine("Between 100 and 200");
             }
@@ -28,6 +28,10 @@ namespace fromHundredTo2Hundred
             {
                 Console.WriteLine("Greater than 200");
             }
+
+
+
+
 
         }
     }
