@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Rectangle of N x N Stars", "02. Rectangle of N x N Stars.csproj", "{1D8773E4-FDF7-46E7-81A8-89E9AF326036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D8773E4-FDF7-46E7-81A8-89E9AF326036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D8773E4-FDF7-46E7-81A8-89E9AF326036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D8773E4-FDF7-46E7-81A8-89E9AF326036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D8773E4-FDF7-46E7-81A8-89E9AF326036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B4AB9CC-2731-47E0-A56E-878086195911}
+	EndGlobalSection
+EndGlobal
