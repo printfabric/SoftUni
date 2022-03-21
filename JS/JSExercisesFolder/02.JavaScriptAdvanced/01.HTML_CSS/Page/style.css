@@ -1,0 +1,29 @@
+header{
+    background-color: #19283F;
+}
+
+.content {
+    width: 1170px;
+    margin: auto;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li{
+    display: inline;
+}
+
+.navigation a {
+    color: #A8B9C0;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #00C7C0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
