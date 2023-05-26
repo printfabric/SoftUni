@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>My first page</title>
+    </head>
+    <body>
+
+        <h1 id="heading">Intro to DOM</h1>
+        <ul>
+            <li id="method-list-item" class="list-item" data-name="ivan">DOM Method</li>
+            <li class="list-item">DOM Properties</li>
+        </ul>
+
+        <script>
+            // console.log('neshto');
+            // alert('drugoneshto');
+
+            // let h1Element = document.getElementsByTagName('h1')[0];
+            // h1Element.innerHTML += ', YEY';
+            // console.log(h1Element);
+            // console.log(document.getElementById("heading"));
+
+            // let listItemElements = document.getElementsByTagName('li');
+            // console.log(listItemElements[1]);
+
+            // let listElements = document.getElementsByClassName('list-item');
+            // console.log(listElements[1]);
+
+            // let listElement = document.querySelector('.list-item')
+            // let listElements = document        .querySelectorAll('.list-item')
+            // console.log(listElement);
+            // console.log(listElements);
+            
+            // let listElements = document.querySelector('#method-list-item');
+            // listElements.innerHTML += 'k';
+            // let ulElement = document.querySelector('ul');
+            // ulElement.innerHTML += 'o';
+
+            // let ulElement = document.querySelector('ul');
+            // ulElement.innerHTML += '<li>Newly added!</li>'
+
+            // let liElement = document.querySelector('#method-list-item');
+            // liElement.setAttribute('data-name', 'Pesho');
+            // console.log(liElement.attributes);
+            // console.log(liElement.attributes.id);
+
+            // let liElement = document.querySelector('#method-list-item');
+            // liElement.style.backgroundColor = 'pink';
+            // liElement.style.color = 'lightgreen';
+
+            let parentElement = document.querySelector('ul');
+            let childElement = document.getElementById('method-list-item');
+
+            parentElement.removeChild(childElement);
+            parentElement.appendChild(childElement);
+
+        </script>
+
+    </body>
+</html>
