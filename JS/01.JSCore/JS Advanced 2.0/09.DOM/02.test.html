@@ -47,11 +47,26 @@
             // liElement.style.backgroundColor = 'pink';
             // liElement.style.color = 'lightgreen';
 
-            let parentElement = document.querySelector('ul');
-            let childElement = document.getElementById('method-list-item');
+            // let parentElement = document.querySelector('ul');
+            // let childElement = document.getElementById('method-list-item');
 
-            parentElement.removeChild(childElement);
-            parentElement.appendChild(childElement);
+            // parentElement.removeChild(childElement);
+            // parentElement.appendChild(childElement);
+
+            window.name = 'Glosho';
+
+            function speak(message) {
+                console.log(`${this.name}: ${message}`);
+            }
+
+            let person = {
+                name: 'Pesho',
+                speak: speak
+            }
+
+            person.speak('Hello world');
+            speak('Hello Im free');
+            this.speak('gg');
 
         </script>
 
